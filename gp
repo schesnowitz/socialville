@@ -1,3 +1,3 @@
 git add -A
-git commit -m "init commit socialville app"
+git commit -m "Sass Devise Sanatize Simple Form and so much more"
 git push -u origin master
