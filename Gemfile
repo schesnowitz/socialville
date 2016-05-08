@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
-gem 'sqlite3'
+
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -17,7 +17,8 @@ gem 'devise', '~> 4.1' # rails generate devise:install
 # rails generate devise User
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'bootstrap-sass-extras', '~> 0.0.7'
-
+gem 'pg', '~> 0.18.4', group: :production
+gem 'rails_12factor', '~> 0.0.3', group: :production
 
 
 
@@ -30,6 +31,8 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'figaro', '~> 1.1', '>= 1.1.1'
+  gem 'sqlite3'
 end
 
 
