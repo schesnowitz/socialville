@@ -19,6 +19,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'bootstrap-sass-extras', '~> 0.0.7'
 gem 'pg', '~> 0.18.4', group: :production
 gem 'rails_12factor', '~> 0.0.3', group: :production
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'aws-sdk', '< 2.0'
+
 
 
 
