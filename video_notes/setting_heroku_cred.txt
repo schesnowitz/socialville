@@ -1,0 +1,8 @@
+
+Setting Heroku Credentials:
+
+heroku config:set GMAIL_PASSWORD=Layla112207
+heroku config:set GMAIL_USERNAME=your_email@gmail.com
+heroku config:set S3_BUCKET_NAME=bucket_name
+heroku config:set AWS_ACCESS_KEY_ID=ABCDKIEFGW5SGBG7X78P
+heroku config:set AWS_SECRET_ACCESS_KEY=XEgr565gsdty56gghsdfg5yh45665
