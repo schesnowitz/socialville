@@ -1,4 +1,4 @@
 git add -A
-git commit -m ""
-git push origin 
+git commit -m "status section"
+git push origin status
 
