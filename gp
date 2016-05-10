@@ -1,4 +1,4 @@
 git add -A
-git commit -m "paperclip with username validations"
+git commit -m "status section"
 git push -u origin master
 git push heroku master
