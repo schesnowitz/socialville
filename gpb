@@ -1,4 +1,4 @@
 git add -A
-git commit -m "status section"
-git push origin status
+git commit -m "user profile/adding friends sections"
+git push origin profile
 

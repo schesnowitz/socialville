@@ -9,8 +9,13 @@ class ApplicationController < ActionController::Base
                                                           :password, 
                                                           :password_confirmation, 
                                                           :username,
-                                                          :image
-                                                          
+                                                          :image,
+                                                          :age,
+                                                          :gender,
+                                                          :location,
+                                                          :bio,
+                                                          :alt_email,
+                                                          :cover
                                                           ) 
                                                           }
   devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email, 
@@ -18,7 +23,13 @@ class ApplicationController < ActionController::Base
                                                           :password_confirmation, 
                                                           :current_password, 
                                                           :username,
-                                                          :image
+                                                          :image,
+                                                          :age,
+                                                          :gender,
+                                                          :location,
+                                                          :bio,
+                                                          :alt_email,
+                                                          :cover
                                                           ) 
                                                           }  
   end

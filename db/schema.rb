@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160509083152) do
+ActiveRecord::Schema.define(version: 20160512122938) do
+
+  create_table "friendships", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "friend_id"
+    t.string   "friend_status", default: "pending"
+    t.datetime "friended_at"
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
+  end
 
   create_table "statuses", force: :cascade do |t|
     t.string   "name"
@@ -44,6 +53,15 @@ ActiveRecord::Schema.define(version: 20160509083152) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.text     "bio"
+    t.date     "age"
+    t.string   "location"
+    t.string   "gender"
+    t.string   "alt_email"
+    t.string   "cover_file_name"
+    t.string   "cover_content_type"
+    t.integer  "cover_file_size"
+    t.datetime "cover_updated_at"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true

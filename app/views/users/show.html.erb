@@ -1,0 +1,38 @@
+<h1>Users#show</h1>
+<p>Find me in app/views/users/show.html.erb</p>
+
+<div class="bootstrap snippet">
+    <div class="row">
+        <div class="col-md-12">
+        
+        	<!--Profile Heading-->
+        	<!--===================================================-->
+        	<div class="panel">
+        		<div class="panel-bg-cover">
+        			        <%= image_tag @user.image.url(:cover), 
+        			        class: "img-rounded img-responsive" %>
+            </div>
+        		<div class="panel-media">
+        			<%= image_tag @user.image.url(:thumb), 
+                        class: "panel-media-img img-circle img-border-light" %>
+        			<div class="row">
+        				<div class="col-md-7">
+        					<h3 class="panel-media-heading"><%= @user.username %></h3>
+        					<a href="#" class="btn-link">Member since</a>
+        					<p class="text-muted mar-btm">Birthday</p>
+        				</div>
+        				<div class="col-md-5 pull-right">
+        					<button class="btn btn-sm btn-primary">Add Friend</button>
+        					<button class="btn btn-sm btn-success btn-icon glyphicon glyphicon-envelope"></button>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="panel-body">
+        			<h4>About <%= @user.username %></h4>
+        		<%= @user.bio %>
+        		</div>
+        	</div>
+        	<!--===================================================-->
+        
+        </div>
+	</div>
