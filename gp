@@ -1,3 +1,5 @@
 git add -A
-git commit -m "merging branch"
+git commit -m "merging creating-friends branch"
 git push -u origin master
+git push heroku master
+
