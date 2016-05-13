@@ -8,7 +8,7 @@ https://github.com/schesnowitz/socialville/blob/creating-friends/app/models/user
 
 3.       The user helper
 
-https://github.com/schesnowitz/socialville/blob/creating-friends/app/helpers/users_helper.rb​
+https://github.com/schesnowitz/socialville/blob/creating-friends/app/helpers/users_helper.rb
 
 4.       User index
 
