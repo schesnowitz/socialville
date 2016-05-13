@@ -1,0 +1,36 @@
+Making Friends The Complete How-To-Guide -- TEXT
+1.        User partial
+
+https://github.com/schesnowitz/socialville/blob/master/app/views/users/_user.html.erb
+
+2.       User.rb
+
+https://github.com/schesnowitz/socialville/blob/master/app/models/user.rb
+
+3.       The user helper
+
+https://github.com/schesnowitz/socialville/blob/master/app/helpers/users_helper.rb
+
+4.       User index
+
+https://github.com/schesnowitz/socialville/blob/master/app/views/users/index.html.erb
+
+5.       Routes.rb
+
+https://github.com/schesnowitz/socialville/blob/master/config/routes.rb
+
+6.       rails generate model friendship user_id:integer friend_id:integer friend_status:string friended_at:datetime
+
+https://github.com/schesnowitz/socialville/blob/master/db/migrate/20160512122938_create_friendships.rb
+
+7.       rake db:migrate  restart server
+
+8.      friendship.rb https://github.com/schesnowitz/socialville/blob/master/app/models/friendship.rb
+
+9.       FriendshipsController
+
+https://github.com/schesnowitz/socialville/blob/master/app/controllers/friendships_controller.rb
+
+10.   Users controller
+
+https://github.com/schesnowitz/socialville/blob/master/app/controllers/users_controller.rb
