@@ -1,4 +1,4 @@
 git add -A
-git commit -m "text file"
+git commit -m "creating friends section"
 git push origin creating-friends
 
