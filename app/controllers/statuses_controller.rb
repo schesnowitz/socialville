@@ -11,6 +11,7 @@ class StatusesController < ApplicationController
   # GET /statuses/1
   # GET /statuses/1.json
   def show
+    @messages = Message.all
   end
 
   # GET /statuses/new

@@ -1,0 +1,110 @@
+
+1.  rails g model message content:text
+
+2.  # update app/controllers/statuses_controller.rb
+
+class StatusesController < ApplicationController
+  def show
+    @messages = Message.all
+  end
+end
+
+
+3.  # app/views/statuses/show.html.erb
+
+
+<div id="messages">
+  <%= render @messages %>
+</div>
+  
+<form>
+  <label>Say something:</label><br>
+  <input type="text" data-behavior="room_speaker">
+</form>
+
+
+4.  # lets make a directory in the views called messages
+5.  # create a partial inside app/view/messages/_message.html.erb
+
+
+
+
+<div class=“message”>
+  <p><%= message.content %></p>
+</div>
+
+
+6. rails g channel status speak
+
+
+7.  # app/channels/status_channel.rb
+
+class StatusChannel < ApplicationCable::Channel
+  def subscribed
+    stream_from "status_channel"
+  end
+ 
+  def unsubscribed
+    # Any cleanup needed when channel is unsubscribed
+  end
+ 
+  def speak(data)
+    # ActionCable.server.broadcast "status_channel", message: data['message']
+    Message.create! content: data['message']
+  end
+end
+
+8.  update our routes  config/routes:
+
+
+mount ActionCable.server => '/cable'
+
+
+9.  # app/assets/javascripts/channels/status.coffee
+
+
+App.room = App.cable.subscriptions.create "StatusChannel",
+  connected: ->
+    # Called when the subscription is ready for use on the server
+ 
+  disconnected: ->
+    # Called when the subscription has been terminated by the server
+ 
+  received: (data) ->
+    $('#messages').append data['message']
+    # Called when there's incoming data on the websocket for this channel
+ 
+  speak: (message) ->
+    @perform 'speak', message: message
+ 
+$(document).on 'keypress', '[data-behavior~=status_speaker]', (event) ->
+  if event.keyCode is 13 # return = send
+    App.status.speak event.target.value
+    event.target.value = ""
+    event.preventDefault()
+    
+    
+10.   # app/models/message.rb
+
+class Message < ApplicationRecord
+  after_create_commit { MessageBroadcastJob.perform_later self }
+end    
+
+
+And finally we create app/jobs/message_broadcast_job.rb:
+
+
+11.  rails g job MessageBroadcast
+
+class MessageBroadcastJob < ApplicationJob
+  queue_as :default
+ 
+  def perform(message)
+    ActionCable.server.broadcast 'status_channel', message: render_message(message)
+  end
+ 
+  private
+    def render_message(message)
+      ApplicationController.renderer.render(partial: 'messages/message', locals: { message: message })
+    end
+end

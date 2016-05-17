@@ -14,8 +14,7 @@ class ApplicationController < ActionController::Base
                                                           :gender,
                                                           :location,
                                                           :bio,
-                                                          :alt_email,
-                                                          :cover
+                                                          :alt_email
                                                           ) 
                                                           }
   devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email, 
@@ -28,8 +27,7 @@ class ApplicationController < ActionController::Base
                                                           :gender,
                                                           :location,
                                                           :bio,
-                                                          :alt_email,
-                                                          :cover
+                                                          :alt_email
                                                           ) 
                                                           }  
   end

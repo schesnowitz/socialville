@@ -44,6 +44,11 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # Action Cable endpoint configuration
+  config.action_cable.url = 'wss://steve-apps-chesnowitz.c9users.io/cable'
+  config.action_cable.allowed_request_origins = [ 'https://steve-apps-chesnowitz.c9users.io', 
+  /http:\/\/steve-apps-chesnowitz.c9users.*/ ]
 
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.

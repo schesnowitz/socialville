@@ -5,6 +5,7 @@ class AddStuffToUser < ActiveRecord::Migration[5.0]
     add_column :users, :location, :string
     add_column :users, :gender, :string
     add_column :users, :alt_email, :string
+    
   end
 end
 
