@@ -3,23 +3,283 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
 
 
 user = User.create(username: "BabaBooey",
                    email: "b@example.com", 
                    password: "password", 
-                   password_confirmation: "password")
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
 
-user = User.create(username: "Steve",
+user = User.create(username: "Sol",
+                   email: "sol@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+user = User.create(username: "Eric The Actor",
+                 email: "eric@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+user = User.create(username: "High Pitch",
+                 email: "hp@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+                 
+user = User.create(username: "Knopfler",
+                 email: "k@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )     
+                 
+user = User.create(username: "GaGa",
+                   email: "ga@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+
+user = User.create(username: "Sally",
+                   email: "sal@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+user = User.create(username: "Computer",
+                 email: "c@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+user = User.create(username: "Rails Lover",
+                 email: "rl@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+                 
+user = User.create(username: "Essentials",
+                 email: "e@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )    
+                 
+user = User.create(username: "Buddy Guy",
+                   email: "buddy@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+
+user = User.create(username: "Layla",
+                   email: "layla@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+user = User.create(username: "Addi",
+                 email: "a@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+user = User.create(username: "Obama",
+                 email: "o@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+                 
+user = User.create(username: "Rain Man",
+                 email: "rm@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )     
+                 
+                 
+user = User.create(username: "Bowie",
+                   email: "db@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+
+user = User.create(username: "Stratocaster",
                    email: "s@example.com", 
                    password: "password", 
-                   password_confirmation: "password")                   
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
                    
-user = User.create(username: "Stu",
-                   email: "stu@example.com", 
+user = User.create(username: "Bill Burr",
+                 email: "bb@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+user = User.create(username: "Clapton",
+                 email: "ec@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+                 
+user = User.create(username: "Pete Townsend",
+                 email: "pt@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )      
+                 
+user = User.create(username: "Margret",
+                   email: "m@example.com", 
                    password: "password", 
-                   password_confirmation: "password")  
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+
+user = User.create(username: "Sal",
+                   email: "sal@example.com", 
+                   password: "password", 
+                   password_confirmation: "password",
+                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                   age: "January 10 1933",
+                   gender: "female",
+                   alt_email: "anything@example.com",
+                   location: "England"
+                   )
+                   
+user = User.create(username: "Fred Flintstone",
+                 email: "ff@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+user = User.create(username: "BamBam",
+                 email: "bam@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )
+                 
+user = User.create(username: "Colin Quinn",
+                 email: "cq@example.com", 
+                 password: "password", 
+                 password_confirmation: "password",
+                 bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
+                 age: "January 10 1933",
+                 gender: "female",
+                 alt_email: "anything@example.com",
+                 location: "England"
+                 )                     
                    
 puts user.inspect                   

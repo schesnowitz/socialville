@@ -1,9 +1,53 @@
-<%= link_to user_path(user.username) do %>
-<%= image_tag user.image.url(:micro), class: "img-circle" %> 
-                                        
-<% end %>
+<!--http://bootdey.com/snippets/view/Members-->
+<!--http://www.w3schools.com/icons/fontawesome_icons_webapp.asp-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+<div class="row bootstrap snippets"> 
+    <div class="col-md-9 col-sm-7"> 
+        <h2>          
+          <%= link_to user_path(user.username) do %>
+            <%= user.username %>
+          <% end %>
+        </h2> 
+    </div> 
+</div>
+<div class="member-entry"> 
+    <a href="#" class="member-img"> 
+      <%= link_to user_path(user.username) do %>
+      <%= image_tag user.image.url(:medium), class: "img-circle" %> 
+      <% end %>
+         
+    </a> 
+    <div class="member-details"> 
+        <h4> 
 
-<h3><%= user.username %></h3>
-<% if current_user %>
-<p><%= action_buttons(user)%></p>
-<% end %>
+        </h4> 
+        <div class="row info-list"> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-heart"></i>
+                <% if current_user %>
+                  <%= action_buttons(user)%>
+                <% end %>
+            </div> 
+
+
+            <div class="clear"></div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-location-arrow"></i> 
+                <%= user.location %>
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-envelope"></i> 
+                <%= user.alt_email %> 
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-birthday-cake"></i> 
+                <%= user.age.to_time.strftime('%B %e %Y') %>
+            </div> 
+        </div> 
+    </div> 
+</div>
+
+</div>
+</div>
+<hr>
