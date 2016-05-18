@@ -6,14 +6,14 @@ class FriendshipsController < ApplicationController
 	def create
 		@friendship = current_user.request_friendship(@user)
 		respond_to do |format|
-			format.html {redirect_to users_path, notice: "Friendship Created"}
+			format.html {redirect_to :back, notice: "Friendship Created"}
 		end
 	end
 
 	def destroy
 		@friendship.destroy
 		respond_to do |format|
-			format.html {redirect_to users_path, notice: "Friendship Deleted"}
+			format.html {redirect_to :back, notice: "Friendship Deleted"}
 		end
 	end
 
@@ -22,7 +22,7 @@ class FriendshipsController < ApplicationController
 		#@friendship.create_activity key: 'friendship.accepted', owner: @friendship.user, recipient: @friendship.friend
 		#@friendship.create_activity key: 'friendship.accepted', owner: @friendship.friend, recipient: @friendship.user
 		respond_to do |format|
-			format.html {redirect_to users_path, notice: "Friendship Accepted"}
+			format.html {redirect_to :back, notice: "Friendship Accepted"}
 		end
 	end
 

@@ -1,14 +1,25 @@
 <li><%= link_to "Statuses", statuses_path if current_user %></li> 
-<li><%= link_to "Profiles", users_path %></li>
+<% if current_user %>
   <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+    aria-haspopup="true" aria-expanded="false">Profiles/Friends <span class="caret"></span></a>
     <ul class="dropdown-menu">
-      <li><a href="#">Action</a></li>
-      <li><a href="#">Another action</a></li>
-      <li><a href="#">Something else here</a></li>
+      <li><%= link_to "Everyone", users_path, 
+              class: "#{'active' unless params[:people]}" %></li>
+              
+      <li><%= link_to "Friends", users_path(people: "friends"), 
+              class: "#{'active' if params[:people] == 'friends'}" %></li>
+              
+      <li><%= link_to "Requests", users_path(people: "requests"), 
+              class: "#{'active' if params[:people] == 'requests'}" %></li>
+              
+      <li><%= link_to "Pending", users_path(people: "pending"), 
+              class: "#{'active' if params[:people] == 'pending'}" %></li>
+              
       <li role="separator" class="divider"></li>
       <li><a href="#">Separated link</a></li>
       <li role="separator" class="divider"></li>
       <li><a href="#">One more separated link</a></li>
     </ul>
   </li>
+  <% end %> 
