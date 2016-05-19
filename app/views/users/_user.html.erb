@@ -42,7 +42,31 @@
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-birthday-cake"></i> 
-                <%= user.age.to_time.strftime('%B %e %Y') %>
+                <%= user.age.to_time.strftime('%B %e, %Y') %>
+                
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-twitter-square"></i> 
+                <%= user.twitter %>
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-facebook"></i> 
+                <%= link_to user.facebook, user.facebook, target: '_blank' %> 
+
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-group"></i> 
+                <%= user.username %> is
+                <%= distance_of_time_in_words_to_now(user.age, only: :years) %> old
+                
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-youtube"></i> 
+                <%= link_to "My YouTube Channel", user.youtube, target: "_blank" %>
+            </div> 
+            <div class="col-sm-4"> 
+                <i class="fa fa-calendar-check-o"></i> 
+                Member Since: <%= user.created_at.to_time.strftime('%B %e, %Y') %>
             </div> 
         </div> 
     </div> 
@@ -51,3 +75,5 @@
 </div>
 </div>
 <hr>
+
+

@@ -21,8 +21,8 @@ gem 'pg', '~> 0.18.4', group: :production
 gem 'rails_12factor', '~> 0.0.3', group: :production
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'aws-sdk', '< 2.0'
-
-
+gem 'dotiw', '~> 3.1', '>= 3.1.1' #https://rubygems.org/gems/dotiw/versions/3.1.1
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 
 
 group :development, :test do

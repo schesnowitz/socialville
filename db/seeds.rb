@@ -12,9 +12,12 @@ user = User.create(username: "BabaBooey",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"                   
                    )
                    
 
@@ -24,9 +27,12 @@ user = User.create(username: "Sol",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Eric The Actor",
@@ -35,9 +41,12 @@ user = User.create(username: "Eric The Actor",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
 user = User.create(username: "High Pitch",
                  email: "hp@example.com", 
@@ -45,9 +54,12 @@ user = User.create(username: "High Pitch",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Knopfler",
@@ -56,9 +68,12 @@ user = User.create(username: "Knopfler",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )     
                  
 user = User.create(username: "GaGa",
@@ -67,9 +82,12 @@ user = User.create(username: "GaGa",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -79,9 +97,12 @@ user = User.create(username: "Sally",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Computer",
@@ -90,9 +111,12 @@ user = User.create(username: "Computer",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
 user = User.create(username: "Rails Lover",
                  email: "rl@example.com", 
@@ -100,9 +124,12 @@ user = User.create(username: "Rails Lover",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Essentials",
@@ -111,9 +138,12 @@ user = User.create(username: "Essentials",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )    
                  
 user = User.create(username: "Buddy Guy",
@@ -122,9 +152,12 @@ user = User.create(username: "Buddy Guy",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -134,9 +167,12 @@ user = User.create(username: "Layla",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Addi",
@@ -145,9 +181,12 @@ user = User.create(username: "Addi",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
 user = User.create(username: "Obama",
                  email: "o@example.com", 
@@ -155,9 +194,12 @@ user = User.create(username: "Obama",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Rain Man",
@@ -166,9 +208,12 @@ user = User.create(username: "Rain Man",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )     
                  
                  
@@ -178,9 +223,12 @@ user = User.create(username: "Bowie",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -190,9 +238,12 @@ user = User.create(username: "Stratocaster",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Bill Burr",
@@ -201,9 +252,12 @@ user = User.create(username: "Bill Burr",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
 user = User.create(username: "Clapton",
                  email: "ec@example.com", 
@@ -211,9 +265,12 @@ user = User.create(username: "Clapton",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Pete Townsend",
@@ -222,9 +279,12 @@ user = User.create(username: "Pete Townsend",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )      
                  
 user = User.create(username: "Margret",
@@ -233,9 +293,12 @@ user = User.create(username: "Margret",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                   twitter: "@katyperry",
+                   youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -245,9 +308,12 @@ user = User.create(username: "Sal",
                    password_confirmation: "password",
                    bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                    age: "January 10 1933",
-                   gender: "female",
+                   gender: "Female",
                    alt_email: "anything@example.com",
-                   location: "England"
+                   location: "England",
+                   facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Fred Flintstone",
@@ -256,9 +322,12 @@ user = User.create(username: "Fred Flintstone",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
 user = User.create(username: "BamBam",
                  email: "bam@example.com", 
@@ -266,9 +335,12 @@ user = User.create(username: "BamBam",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Colin Quinn",
@@ -277,9 +349,12 @@ user = User.create(username: "Colin Quinn",
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
                  age: "January 10 1933",
-                 gender: "female",
+                 gender: "Female",
                  alt_email: "anything@example.com",
-                 location: "England"
+                 location: "England",
+                 facebook: "https://www.facebook.com/barackobama",
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )                     
                    
 puts user.inspect                   
