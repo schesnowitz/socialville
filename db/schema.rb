@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160519073826) do
+ActiveRecord::Schema.define(version: 20160519235026) do
 
   create_table "friendships", force: :cascade do |t|
     t.integer  "user_id"
@@ -78,6 +78,7 @@ ActiveRecord::Schema.define(version: 20160519073826) do
     t.boolean  "youtube_permission",     default: true
     t.string   "twitter"
     t.boolean  "twitter_permission",     default: true
+    t.boolean  "birthday_permission",    default: true
     t.boolean  "email_permission",       default: true
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true

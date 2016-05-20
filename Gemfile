@@ -25,6 +25,7 @@ gem 'dotiw', '~> 3.1', '>= 3.1.1' #https://rubygems.org/gems/dotiw/versions/3.1.
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 
 
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
