@@ -63,6 +63,55 @@ class User < ApplicationRecord
   end
   # Making Friends ---------------------
   
+  def twitter_model
+    if self.twitter_permission == true && self.twitter.present?
+      return self.twitter
+    else
+      return "Ask Me!"
+    end
+  end
+  
+    def facebook_model
+    if self.facebook_permission == true && self.facebook.present?
+      return self.facebook
+    else
+      return "Ask Me!"
+    end
+  end
+  
+    def youtube_model
+    if self.youtube_permission == true && self.youtube.present?
+      return self.youtube
+    else
+      return "Ask Me!"
+    end
+  end
+  
+    def birthday_model
+    if self.age.present?
+      return self.age.strftime('%B %e, %Y')
+    else
+      return "Wanna buy me a gift?"
+    end
+  end
+  
+  def location_model
+    if self.location.present?
+      return self.location
+    else
+      return "No location set"
+    end 
+  end
+  
+  def email_model
+    if self.email_permission == true
+      return self.email
+    elsif self.alt_email.present? && self.email_permission == false
+      return self.alt_email
+    else
+      return "I don't share my email"
+    end 
+  end
 end
 
 

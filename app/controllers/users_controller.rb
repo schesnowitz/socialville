@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_the_user, only: [:show]
+  before_action :set_the_user, only: [:show, :index]
   
 
 # Making Friends ---------------------  

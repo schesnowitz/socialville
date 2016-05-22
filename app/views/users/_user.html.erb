@@ -34,24 +34,24 @@
             <div class="clear"></div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-location-arrow"></i> 
-                <%= user.location %>
+                <%= user.location_model %>
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-envelope"></i> 
-                <%= user.alt_email %> 
+                <%= user.email_model %> 
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-birthday-cake"></i> 
-                <%= user.age.to_time.strftime('%B %e, %Y') %>
+                <%= user.birthday_model %> 
                 
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-twitter-square"></i> 
-                <%= user.twitter %>
+                <%= user.twitter_model %>
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-facebook"></i> 
-                <%= link_to user.facebook, user.facebook, target: '_blank' %> 
+                <%= link_to user.facebook_model, user.facebook_model, target: '_blank' %> 
 
             </div> 
             <div class="col-sm-4"> 
@@ -62,7 +62,7 @@
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-youtube"></i> 
-                <%= link_to "My YouTube Channel", user.youtube, target: "_blank" %>
+                <%= link_to "My YouTube Channel", user.youtube_model, target: "_blank" %>
             </div> 
             <div class="col-sm-4"> 
                 <i class="fa fa-calendar-check-o"></i> 

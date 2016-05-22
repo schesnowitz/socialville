@@ -17,7 +17,8 @@
         				<div class="col-md-7">
         					<h3 class="panel-media-heading"><%= @user.username %></h3>
         					<p class="text-muted mar-btm">
-        					    Has <%=@user.friendships.count%> Friends
+        					     Has <%= @user.friendships.count %> <%=  "Friend".pluralize(@user.friendships.count) %>
+
         					</p>
         					<p class="text-muted mar-btm">Birthday</p>
         				</div>

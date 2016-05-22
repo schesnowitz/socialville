@@ -1,0 +1,27 @@
+<div class="col-md-4">
+  <ul class="no-bullets">
+    <div>
+      <%= f.input :facebook, label: false, placeholder: "Facebook URL" %>
+      <li><%= f.input :facebook_permission, label: "Show your Facebook?" %></li>
+    </div>
+    <div>
+      <%= f.input :twitter, label: false, placeholder: "Twitter URL" %>
+      <li><%= f.input :twitter_permission, label: "Show your Twitter?" %></li>
+    </div>
+    <div>
+      <%= f.input :youtube, label: false, placeholder: "Youtube URL" %>
+      <li><%= f.input :youtube_permission, label: "Show your Youtube?" %></li>
+    </div>
+  </ul>
+</div>
+<div class="col-md-4">
+  <ul class="no-bullets">
+    <div>
+      <li><%= f.input :birthday_permission, label: "Show your Birthday?" %></li>
+    </div>
+    <div>
+      <li><%= f.input :email_permission, label: "Show your Email" %></li>
+    </div>
+  </ul>
+</div>
+</div>  
