@@ -1,4 +1,4 @@
 git add -A
-git commit -m "social user inputs/booleans and model methods"
-git push origin selectors
+git commit -m "user profile with status and message count"
+git push origin user-show-status
 

@@ -19,8 +19,9 @@ class UsersController < ApplicationController
 
 
   def show
-     
-  end
+    @statuses = @user.statuses.all
+
+  end 
   
   
     private

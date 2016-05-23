@@ -3,44 +3,46 @@
     <div class="row">
         <div class="col-md-12">
         
-        	<!--Profile Heading-->
-        	<!--===================================================-->
-        	<div class="panel">
-        		<div class="panel-bg-cover">
-        			        <%= image_tag @user.image.url(:cover), 
-        			        class: "img-rounded img-responsive" %>
-            </div>
-        		<div class="panel-media">
-        			<%= image_tag @user.image.url(:thumb), 
-                        class: "panel-media-img img-circle img-border-light" %>
-        			<div class="row">
-        				<div class="col-md-7">
-        					<h3 class="panel-media-heading"><%= @user.username %></h3>
-        					<p class="text-muted mar-btm">
-        					     Has <%= @user.friendships.count %> <%=  "Friend".pluralize(@user.friendships.count) %>
+	<!--Profile Heading-->
+	<!--===================================================-->
+<div class="panel">
+<div class="panel-bg-cover">
+    <%= image_tag @user.cover.url(:cover), 
+    class: "img-rounded img-responsive" %>
+</div>
+<div class="panel-media">
+	<%= image_tag @user.image.url(:thumb), 
+        class: "panel-media-img img-circle img-border-light" %>
+	<div class="row">
+		<div class="col-md-7">
+			<h3 class="panel-media-heading"><%= @user.username %></h3>
+			<p class="text-muted mar-btm">
+			     Has <%= @user.active_friends.count %> 
+			     <%=  "Friend".pluralize(@user.active_friends.count) %>
 
-        					</p>
-        					<p class="text-muted mar-btm">Birthday</p>
-        				</div>
-        				<div class="col-md-5 pull-right">
-        					<button class="btn btn-sm btn-primary">
-        					    <% if @user == current_user %>
-        					    <%= link_to "Edit My Profile", edit_user_registration_path %>
-        					    <% else %>
-        					    <%= action_buttons(@user) %>
-        					    <% end %>
-        					</button>
-        					<!--<button class="btn btn-sm btn-success btn-icon glyphicon glyphicon-envelope"></button>-->
-        				</div>
-        			</div>
-        		</div>
-        		<div class="panel-body">
-        			<h4>About <%= @user.username %></h4> 
-        		<%= @user.bio %>
-        		</div>
-        	</div>
-        	<!--===================================================-->
-        
-        </div>
+			</p>
+			<p class="text-muted mar-btm"><%= @user.birthday_model %></p>
+		</div>
+		<div class="col-md-5 pull-right">
+			<button class="btn btn-sm btn-primary">
+			    <% if @user == current_user %>
+			    <%= link_to "Edit My Profile", edit_user_registration_path %>
+			    <% else %>
+			    <%= action_buttons(@user) %>
+			    <% end %>
+			</button>
+			<!--<button class="btn btn-sm btn-success btn-icon glyphicon glyphicon-envelope"></button>-->
+		</div>
 	</div>
-	
+</div>
+<div class="panel-body">
+	<h4>About <%= @user.username %></h4> 
+<%= @user.bio %>
+</div>
+	</div>
+	<!--===================================================-->
+
+</div>
+</div>
+
+ <%= render "statuses/status" %>

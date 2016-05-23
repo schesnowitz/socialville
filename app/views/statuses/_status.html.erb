@@ -1,0 +1,36 @@
+<%= link_to 'New Status', new_status_path, class: "btn btn-success btn-xs" %>
+
+<%= render "statuses/index" %>
+<% @statuses.each do |status| %> 
+<div class="status">
+<li class="list-group-item">
+  <div class="media">
+    <div class="media-left">
+      <span class="avatar avatar-online">
+       <%= image_tag status.user.image.url(:thumb), class: "img-circle" %> 
+        <i></i>
+      </span>
+    </div>
+    <div class="media-body">
+      <h5 class="list-group-item-heading">
+        <small class="pull-right"><%= link_to time_ago_in_words(status.created_at) + " ago",
+        status %><br />
+        <%= link_to status do %>
+        This Status has
+        <%= status.messages.count %>
+        <%= "message".pluralize(status.messages.count) %> 
+        <% end %>
+        </small>
+          <strong><%= status.name %></strong>
+      </h5>
+      <p class="list-group-item-text">  <%= status.content %></p>
+        <span class="admin">
+          <%= link_to 'Edit', edit_status_path(status), class: "btn btn-info btn-xs" %>
+          <%= link_to 'Destroy', status, method: :delete, 
+            data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-xs" %>
+        </span>
+       </div>
+      </div>
+    </li>
+  </div>
+<% end %>

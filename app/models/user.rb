@@ -19,7 +19,7 @@ class User < ApplicationRecord
   
   has_attached_file :cover, styles: { cover: "700x300>", preview: "230x100>" }, 
   default_url: "https://s3.amazonaws.com/socialville/:attachment/missing_:style.jpg"  
-  validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/ 
+  validates_attachment_content_type :cover, content_type: /\Aimage\/.*\Z/ 
   
 
   

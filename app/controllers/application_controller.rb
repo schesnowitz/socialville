@@ -24,6 +24,7 @@ class ApplicationController < ActionController::Base
                                                           :current_password, 
                                                           :username,
                                                           :image,
+                                                          :cover,
                                                           :age,
                                                           :gender,
                                                           :location,
