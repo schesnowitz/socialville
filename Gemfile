@@ -8,7 +8,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
-gem 'turbolinks', '~> 5.x'
+#gem 'turbolinks', '~> 5.x'
 gem 'jbuilder', '~> 2.0'
 gem 'redis', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
@@ -24,7 +24,6 @@ gem 'aws-sdk', '< 2.0'
 gem 'dotiw', '~> 3.1', '>= 3.1.1' #https://rubygems.org/gems/dotiw/versions/3.1.1
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5' # https://rubygems.org/gems/jquery-ui-rails/versions/5.0.5
-
 
 group :development, :test do
   gem 'byebug', platform: :mri

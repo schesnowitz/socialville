@@ -36,7 +36,7 @@ class MessagesController < ApplicationController
       params.require(:message).permit(:content, :user_id, :status_id)
     end
     
-    def can_san
-      params.require(:message).permit(:content, :user_id, :status_id)
-    end
+    # def can_san
+    #   params.require(:message).permit(:content, :user_id, :status_id)
+    # end
 end
