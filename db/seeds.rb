@@ -18,7 +18,7 @@ user = User.create(username: "BabaBooey",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
                    youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/food/1a.jpg")
+                   image: open("app/assets/images/f1a.jpg")
                    )
                    
 
@@ -60,7 +60,7 @@ user = User.create(username: "High Pitch",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
                    youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/food/5a.jpg")
+                   image: open("app/assets/images/5a.jpg")
                  )
                  
 user = User.create(username: "Layla",
@@ -74,7 +74,7 @@ user = User.create(username: "Layla",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
                    youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/food/2a.jpg")
+                   image: open("app/assets/images/2a.jpg")
                  )     
                  
 user = User.create(username: "Addi",
@@ -88,7 +88,7 @@ user = User.create(username: "Addi",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
                    youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/food/3a.jpg")
+                   image: open("app/assets/images/3a.jpg")
                    )
                    
 
@@ -104,7 +104,7 @@ user = User.create(username: "Sally",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
                    youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/food/4a.jpg")
+                   image: open("app/assets/images/4a.jpg")
                    )
                    
 user = User.create(username: "Computer",
