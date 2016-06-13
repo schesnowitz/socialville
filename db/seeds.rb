@@ -17,8 +17,8 @@ user = User.create(username: "BabaBooey",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/f1a.jpg")
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -59,8 +59,8 @@ user = User.create(username: "High Pitch",
                  alt_email: "anything@example.com",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
-                   youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/5a.jpg")
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )
                  
 user = User.create(username: "Layla",
@@ -73,8 +73,8 @@ user = User.create(username: "Layla",
                  alt_email: "anything@example.com",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
-                   youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/2a.jpg")
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                  )     
                  
 user = User.create(username: "Addi",
@@ -87,8 +87,8 @@ user = User.create(username: "Addi",
                    alt_email: "anything@example.com",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
-                   youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/3a.jpg")
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 
@@ -103,8 +103,8 @@ user = User.create(username: "Sally",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight",
-                   image: open("app/assets/images/4a.jpg")
+                 twitter: "@katyperry",
+                 youtube: "https://www.youtube.com/user/latenight"
                    )
                    
 user = User.create(username: "Computer",
