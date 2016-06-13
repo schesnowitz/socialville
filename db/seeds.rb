@@ -17,7 +17,8 @@ user = User.create(username: "BabaBooey",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight"                   
+                   youtube: "https://www.youtube.com/user/latenight",
+                   image: open("app/assets/images/food/1a.jpg")
                    )
                    
 
@@ -58,12 +59,12 @@ user = User.create(username: "High Pitch",
                  alt_email: "anything@example.com",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
-                 twitter: "@katyperry",
-                 youtube: "https://www.youtube.com/user/latenight"
+                   youtube: "https://www.youtube.com/user/latenight",
+                   image: open("app/assets/images/food/5a.jpg")
                  )
                  
-user = User.create(username: "Knopfler",
-                 email: "k@example.com", 
+user = User.create(username: "Layla",
+                 email: "l@example.com", 
                  password: "password", 
                  password_confirmation: "password",
                  bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
@@ -72,11 +73,11 @@ user = User.create(username: "Knopfler",
                  alt_email: "anything@example.com",
                  location: "England",
                  facebook: "https://www.facebook.com/barackobama",
-                 twitter: "@katyperry",
-                 youtube: "https://www.youtube.com/user/latenight"
+                   youtube: "https://www.youtube.com/user/latenight",
+                   image: open("app/assets/images/food/2a.jpg")
                  )     
                  
-user = User.create(username: "GaGa",
+user = User.create(username: "Addi",
                    email: "ga@example.com", 
                    password: "password", 
                    password_confirmation: "password",
@@ -86,8 +87,8 @@ user = User.create(username: "GaGa",
                    alt_email: "anything@example.com",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
-                   twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight"
+                   youtube: "https://www.youtube.com/user/latenight",
+                   image: open("app/assets/images/food/3a.jpg")
                    )
                    
 
@@ -102,7 +103,8 @@ user = User.create(username: "Sally",
                    location: "England",
                    facebook: "https://www.facebook.com/barackobama",
                    twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight"
+                   youtube: "https://www.youtube.com/user/latenight",
+                   image: open("app/assets/images/food/4a.jpg")
                    )
                    
 user = User.create(username: "Computer",
@@ -161,21 +163,9 @@ user = User.create(username: "Buddy Guy",
                    )
                    
 
-user = User.create(username: "Layla",
-                   email: "layla@example.com", 
-                   password: "password", 
-                   password_confirmation: "password",
-                   bio: "Nam an errem signiferumque, facilis argumentum ex mea. Omnis option no per, eu est nusquam scripserit. Ut duo commodo tractatos, ut phaedrum praesent sea, vis pericula suscipiantur et. At qui adhuc minimum tincidunt. Eu phaedrum reprehendunt eam. An vim liber elitr tempor, qui at pertinax petentium, ad qui salutatus patrioque theophrastus. Et mei causae omnesque.",
-                   age: "January 10 1933",
-                   gender: "Female",
-                   alt_email: "anything@example.com",
-                   location: "England",
-                   facebook: "https://www.facebook.com/barackobama",
-                   twitter: "@katyperry",
-                   youtube: "https://www.youtube.com/user/latenight"
-                   )
+
                    
-user = User.create(username: "Addi",
+user = User.create(username: "Dad",
                  email: "a@example.com", 
                  password: "password", 
                  password_confirmation: "password",
