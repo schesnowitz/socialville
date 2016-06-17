@@ -26,11 +26,13 @@
       <p class="list-group-item-text">  <%= status.content %></p>
         <span class="admin">
          
-          <% if (user_signed_in? && (current_user.id == status.user_id)) %>
+     <% if can? :update, status %>
           <%= link_to 'Edit', edit_status_path(status), class: "btn btn-info btn-xs" %>
+      <% end %>    
+      <% if can? :destroy, status%>
           <%= link_to 'Destroy', status, method: :delete, 
             data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-xs" %>
-          <% end %>  
+    <% end %> 
     
         </span>
        </div>

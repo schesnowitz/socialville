@@ -21,7 +21,7 @@ class StatusesController < ApplicationController
 
   # GET /statuses/1/edit
   def edit
-    #authorize! :update, @status
+    authorize! :update, @status
   end
 
   # POST /statuses
@@ -43,8 +43,8 @@ class StatusesController < ApplicationController
   # PATCH/PUT /statuses/1
   # PATCH/PUT /statuses/1.json
   def update
-    #authorize! :update, @status
-    respond_to do |format|
+    authorize! :update, @status
+      respond_to do |format|
       if @status.update(status_params)
         format.html { redirect_to @status, notice: 'Status was successfully updated.' }
         format.json { render :show, status: :ok, location: @status }
@@ -58,7 +58,7 @@ class StatusesController < ApplicationController
   # DELETE /statuses/1
   # DELETE /statuses/1.json
   def destroy
-    # authorize! :destroy, @status
+    authorize! :destroy, @status
     @status.destroy
     respond_to do |format|
       format.html { redirect_to statuses_url, notice: 'Status was successfully destroyed.' }
